@@ -1,0 +1,48 @@
+swagger: '2.0'
+info:
+  description: API Management REST APPs
+  version: 1.0-SNAPSHOT
+  title: Afriland API Management REST API
+  contact:
+    name: Afrilang First Bank
+    url: www.afrilandfirstbank.com
+    email: support@afrilandfirstbank.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+host: 'localhost:8080'
+basePath: /
+tags:
+  - name: Api-Management-controller
+    description: Operations pertaining to corporate apis
+paths:
+  /api/apiobjs:
+    get:
+      tags:
+        - AFB-Api-manager
+      summary: View a list of available Afriland APIs
+      operationId: getApiObjUsingGET
+      produces:
+        - application/json
+      responses:
+        '200':
+          description: Successfully retrieved list
+          schema:
+            $ref: '#/definitions/Iterable'
+        '401':
+          description: You are not authorized to view the resource
+        '403':
+          description: Accessing the resource you were trying to reach is forbidden
+        '404':
+          description: The resource you were trying to reach is not found
+      deprecated: false
+definitions:
+  Iterable:
+    type: object
+    title: Iterable
+  ApiObj:
+    type: object
+    properties:
+      name:
+        type: string
+    title: ApiObj

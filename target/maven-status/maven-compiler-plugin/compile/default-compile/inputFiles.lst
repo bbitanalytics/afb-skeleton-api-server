@@ -1,0 +1,10 @@
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/configuration/CorsConfig.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/swagger/SwaggerConfig.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/dao/entity/ApiObject.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/controller/ApiObjController.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/DataInitializer.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/controller/ApiObjectController.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/Application.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/dao/repository/ApiObjRepository.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/dao/repository/ApiObjectRepository.java
+/var/workspace/labs/afb-apiman-server/src/main/java/com/afrilandfirstbank/api/skeleton/dao/entity/ApiObj.java

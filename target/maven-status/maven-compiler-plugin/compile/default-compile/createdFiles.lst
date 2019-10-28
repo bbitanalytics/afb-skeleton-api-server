@@ -1,0 +1,11 @@
+com/afrilandfirstbank/api/skeleton/DataInitializer.class
+com/afrilandfirstbank/api/skeleton/Application$1.class
+com/afrilandfirstbank/api/skeleton/controller/ApiObjController.class
+com/afrilandfirstbank/api/skeleton/controller/ApiObjectController.class
+com/afrilandfirstbank/api/skeleton/configuration/CorsConfig.class
+com/afrilandfirstbank/api/skeleton/dao/entity/ApiObject.class
+com/afrilandfirstbank/api/skeleton/dao/entity/ApiObj.class
+com/afrilandfirstbank/api/skeleton/dao/repository/ApiObjectRepository.class
+com/afrilandfirstbank/api/skeleton/swagger/SwaggerConfig.class
+com/afrilandfirstbank/api/skeleton/Application.class
+com/afrilandfirstbank/api/skeleton/dao/repository/ApiObjRepository.class
